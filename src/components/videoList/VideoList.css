@@ -1,0 +1,43 @@
+.video_list {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-content: center;
+	list-style: none;
+	gap: 3rem;
+}
+
+.video_item {
+	width: 25rem;
+	justify-self: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background-color: white;
+	padding: 2rem;
+	border-radius: 0.7rem;
+	gap: 1rem;
+	font-size: 1.1rem;
+}
+
+.video_img {
+	border-radius: 0.5rem;
+	max-width: 100%;
+}
+
+.video_img.hidden {
+	display: none;
+}
+
+.video_list--list {
+	grid-template-columns: repeat(1, 100%);
+	gap: 2rem;
+}
+
+.video_list--list .video_item {
+	width: 80%;
+	flex-direction: row;
+	align-items: flex-start;
+	text-align: start;
+	padding: 1rem;
+}

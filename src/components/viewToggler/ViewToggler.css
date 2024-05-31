@@ -1,0 +1,14 @@
+.toggler {
+	display: flex;
+	gap: 1rem;
+}
+
+.toggler i {
+	font-size: 2rem;
+	cursor: pointer;
+	opacity: 0.3;
+}
+
+.toggler i.active {
+	opacity: 1;
+}
